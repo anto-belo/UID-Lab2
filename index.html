@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/tip-box.css">
+    <script src="js/tip-box.js" async></script>
+    <title>AB - Summer is coming</title>
+</head>
+<body>
+<div id="tip-box-wrapper">
+    <div id="tip-box">
+        <i id="tip-box-cross" class="fas fa-times cursor-pointer"></i>
+        <p id="card-header"></p>
+        <p id="card-info"></p>
+        <div id="slider">
+            <i id="prev-card-button" class="fas fa-chevron-left cursor-pointer"></i><p id="tip-box-dots"></p><i id="next-card-button" class="fas fa-chevron-right cursor-pointer"></i>
+        </div><br/>
+        <input id="dont-show-checkbox" type="checkbox"><label id="cb-lbl" for="dont-show-checkbox">Disable tips</label>
+    </div>
+</div>
+<header>
+    <div id="poster">
+        <video autoplay loop src="assets/LW1.mp4"></video>
+    </div>
+    <div id="gradient"></div>
+    <nav>
+        <div id="left_nav">
+            <a href="#">Fashion</a>
+            <a href="#">Lifestyle</a>
+            <a href="#">Shop</a>
+        </div>
+        <div id="logo">
+            <img src="assets/logo.png" alt="AB logo">
+        </div>
+        <div id="right_nav">
+            <a href="#">About us</a>
+            <a href="#">Partners</a>
+            <a style="margin-right: 0" href="#">Support</a>
+        </div>
+        <div id="promo_text">
+            <p>SUMMER IS COMING</p>
+        </div>
+    </nav>
+</header>
+<aside>
+    <div class="quest">
+        <p>Are you satisfied with our blog?</p>
+        <form action="" method="post">
+            <label>
+                <input type="radio" name="satisfied" value="y">
+                It's perfect!
+            </label><br/>
+            <label>
+                <input type="radio" name="satisfied" value="n">
+                Could be better.
+            </label>
+            <input type="button" class="button" name="submit" value="Submit">
+        </form>
+    </div>
+    <div class="quest">
+        <p>Find out about all the news first!</p>
+        <form action="" method="post">
+            <label>
+                <input type="checkbox" name="mail-type" value="collections">
+                New collections
+            </label><br/>
+            <label>
+                <input type="checkbox" name="mail-type" value="discounts">
+                Discounts
+            </label><br/>
+            <label>
+                <input type="checkbox" name="mail-type" value="blog">
+                Blog news
+            </label><br/>
+            <input type="email" placeholder="Email" id="email" size="25" name="email">
+            <input type="button" id="mail_submit" class="button" name="submit" value="Submit">
+        </form>
+    </div>
+</aside>
+<section id="shop_banner_wrapper">
+    <div id="shop_banner">
+        <p>Summer collection is already in the store!</p>
+        <a href="#">Explore</a>
+    </div>
+</section>
+<div id="deny"></div>
+<section id="blog_banner">
+    <div id="ref">
+        <p>Learn something new from our <a href="#">blog</a>.</p>
+    </div>
+</section>
+<footer>
+    <img src="assets/logo.png" alt="logo">
+    <p>©2021</p>
+</footer>
+</body>
+</html>

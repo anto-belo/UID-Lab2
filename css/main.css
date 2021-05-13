@@ -1,0 +1,231 @@
+@import "font.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* header properties */
+
+header {
+    height: 560px;
+}
+
+#poster video {
+    position: absolute;
+    width: 100%;
+    z-index: -2;
+}
+
+#gradient {
+    position: absolute;
+    width: 100%;
+    height: 12vw;
+    z-index: -1;
+    background: linear-gradient(0, rgba(0, 0, 0, .0), rgba(38, 34, 30, .9));
+}
+
+#logo, #logo img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+nav a {
+    margin-right: 130px;
+    font: 900 1.3em 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+#left_nav, #right_nav {
+    position: absolute;
+    top: 75px;
+}
+
+#left_nav {
+    left: 100px;
+}
+
+#right_nav {
+    right: 75px;
+}
+
+#promo_text {
+    margin: 125px auto 0;
+    font: italic 6.5em 'Didot', serif;
+    text-align: center;
+    color: white;
+}
+
+
+/* aside properties */
+
+aside {
+    width: 350px;
+    height: 550px;
+    margin: 15px 0 30px 22px;
+    font: 900 2em 'Montserrat', sans-serif;
+    color: white;
+    float: left;
+}
+
+aside label {
+    margin-left: 5px;
+    font-size: .6em;
+    font-weight: 400;
+}
+
+.button {
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    color: #52B788;
+    font: .6em 'Montserrat', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    float: right;
+    transition: color .3s;
+}
+
+.button:hover {
+    color: #FFD700;
+}
+
+.quest {
+    background-color: #52B788;
+    padding: 25px 0 25px 25px;
+    margin-bottom: 30px;
+}
+
+#email {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font: .6em 'Montserrat', sans-serif;
+    margin-top: 24px;
+}
+
+#mail_submit {
+    position: relative;
+    bottom: 43px;
+    border-radius: 0;
+}
+
+
+/* shop banner props */
+
+#shop_banner_wrapper {
+    width: 1070px;
+    height: 520px;
+    margin: 15px 20px 15px 0;
+    padding: 15px;
+    background-color: #52B788;
+    float: right;
+}
+
+#shop_banner {
+    height: 470px;
+    border: 10px white solid;
+    padding: 15px;
+    background-image: url("../assets/shop_banner_photo.png");
+    font: 900 3.4em 'Montserrat', sans-serif;
+    color: white;
+    transition: .5s;
+}
+
+#shop_banner:hover {
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(229, 255, 0, 0.5)), url("../assets/shop_banner_photo.png");
+    font-size: 3.7em;
+}
+
+#shop_banner a {
+    font: italic .8em 'Didot', serif;
+    color: white;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+#shop_banner a:hover {
+    color: #FFD700;
+}
+
+#deny {
+    clear: both;
+}
+
+
+/* blog banner props */
+
+#blog_banner {
+    width: 1478px;
+    height: 318px;
+    margin: 0 0 30px 22px;
+    background-image: url("../assets/blog_banner_photo.png");
+    padding-top: 180px;
+}
+
+#blog_banner:hover {
+    background: linear-gradient(45deg, rgba(4, 0, 255, 0.3), rgba(0, 255, 242, 0.3)), url("../assets/blog_banner_photo.png");
+}
+
+#ref {
+    margin: 0 auto;
+    padding: 10px;
+    width: 435px;
+    height: 120px;
+    background-color: white;
+    font: italic 2.5em 'Didot', serif;
+    color: #444444;
+    text-align: center;
+}
+
+#ref p {
+    margin-top: 10px;
+}
+
+#ref a {
+    color: #52B788;
+    transition: .3s;
+    text-decoration: none;
+}
+
+#ref a:hover {
+    color: #FFD700;
+}
+
+
+/* footer props */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #52B788;
+    font: italic 1.5em 'Didot', serif;
+    color: white;
+}
+
+footer img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    float: left;
+}
+
+footer p {
+    position: relative;
+    top: 30px;
+}
